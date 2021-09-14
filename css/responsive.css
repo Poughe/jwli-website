@@ -1,0 +1,589 @@
+@media only screen and (max-width: 688px) {
+    .containerOne, .containerTwo, .containerThree, .containerFour{
+        padding: 0;
+        margin: 0;
+      }
+    
+      header nav ul li {
+        display: none;
+      }
+      
+      header nav ul{
+        margin-left: 40px;
+      }
+      header nav ul .miniNav {
+        display: inline-block;
+        margin-right: 40px;
+        font-size: 1.5rem;
+      }
+      .containerOne {
+        width: 100%;
+        text-align: center;
+      }
+      .containerOne h1 {
+        font-size: 1.2rem;
+        
+      }
+      .containerOne h3 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 10px;;
+      }
+    
+      .containerOne h5 {
+        font-size: .7rem;
+        margin-bottom: 10px;;
+      }
+    
+      .containerOne .rightSide img {
+        display: none;
+      }
+      .containerOne .leftSide img{
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    
+      }
+      .containerOne .leftSide {
+        padding:0;
+        margin: 0;
+        margin-left: 140px;
+      }
+    
+      .containerOne input[type="email"], .newsLetter input[type="email"] {
+        width: 160px;
+        padding: 10px 12px;
+        margin: 0;
+       }
+    
+       .containerOne ul a {
+        padding: 6px 10px;
+        }
+        /* CONTAINER TWO */
+        .containerTwo h2 {
+          display: none;
+        }
+    
+        .containerTwo ul li{
+          font-size: 1rem;
+        }
+    
+         ul li span.bolden {
+          border: none;
+        }
+    
+        /* CONTAINER THREE */
+        .containerThree {
+          height: 600px;
+        }
+        .containerThree img { 
+          display: none;
+        }
+        .containerThree h2 {
+          text-align: center;
+        }
+        .containerThree p {
+          width: 100%;
+          padding: 0px 50px;
+        }
+        .containerThree p:nth-child(2) {
+          display: none;
+        }
+        .containerThree p:nth-child(4) {
+          display: none;
+        }
+    
+        /* CONTAINER FOUR */
+        .containerFour h2 {
+          font-size: 1.4rem;
+          margin: 15px 0px;
+        }
+    
+        .containerFour {
+          height: 1000px;
+        }
+    
+        .containerFour .innerSection {
+          border: none;
+          margin: 0px;
+          height: 390px;
+        }
+    
+        .containerFour .innerSection span.remove {
+          display: none;
+        }
+    
+        .containerFour .fishFamily, .containerFour .simmons {
+          width: 100%;
+          margin: 0;
+          text-align: center;
+          padding: 0px 30px;
+        }
+    
+        .newsLetter {
+          display: none;
+        }
+    
+        footer {
+          margin: 0;
+          padding: 0;
+          text-align:center;
+        }
+    
+        footer .topBar {
+          margin: 0 auto;
+        }
+        footer .topBar li{
+          display: inline;
+        }
+    
+        footer .topBar li:first-child {
+          margin-right:0;
+        }
+        footer .footerNav .inlineList {
+          margin: 0;
+          padding: 0;
+        }
+        footer .footerNav .inlineList li {
+          display: none;
+        }
+    }
+    
+    @media (min-width: 689px) and (max-width: 950px){
+      .containerOne, .containerTwo, .containerThree, .containerFour{
+        padding: 0;
+        margin: 0;
+    }
+    
+      header nav ul li {
+        display: none;
+      }
+      
+      
+      header nav ul{
+        margin-left: 40px;
+      }
+      header nav ul .miniNav {
+        display: inline-block;
+        margin-right: 80px;
+        font-size: 1.5rem;
+      }
+      .containerOne {
+        width: 100%;
+        text-align: center;
+      }
+      .containerOne h1 {
+        font-size: 1.2rem;
+        
+      }
+      .containerOne h3 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 10px;;
+      }
+    
+      .containerOne h5 {
+        font-size: .7rem;
+        margin-bottom: 10px;;
+      }
+    
+      .containerOne .rightSide img {
+        display: none;
+      }
+      .containerOne .leftSide img{
+        width: 300px;
+        margin-left: 60px;
+        margin-bottom: 0px;
+    
+      }
+      .containerOne .leftSide {
+        padding:0;
+        margin: 0;
+        margin-left: 140px;
+      }
+    
+      .containerOne input[type="email"], .newsLetter input[type="email"] {
+        width: 160px;
+        padding: 10px 12px;
+        margin: 0;
+       }
+    
+       .containerOne ul a {
+        padding: 6px 10px;
+        }
+    
+        /* CONTAINER TWO */
+        ul li span.bolden {
+          border: none;
+        }
+    
+        .containerTwo ul li{
+          font-size: 1rem;
+        } 
+        .containerTwo h2 {
+          font-size: 1rem;
+        }
+    
+        /* CONTAINER THREE */ 
+        .containerThree {
+          padding: 15px 30px;
+          height: 650px;
+        }
+    
+        .containerThree p:nth-child(2) {
+          display: none;
+        }
+        .containerThree p:nth-child(4) {
+          display: none;
+        }
+    
+        .containerThree .imageOne {
+          display: none;
+        }
+    
+        /* CONTAINER FOUR */
+        .containerFour {
+          height: 1000px;
+        }
+        .containerFour .innerSection {
+          padding: 10px 20px;
+          border: none;
+          margin-bottom: 80px;
+        }
+        .containerFour .fishFamily, .containerFour .simmons {
+          width: 100%;
+          margin: 0px;
+          text-align: center;
+          padding: 0px 30px;
+        }
+    
+        .newsLetter {
+          display: none;
+        }
+    
+        footer {
+          margin: 0;
+          padding: 0;
+          text-align:center;
+        }
+    
+        footer .topBar {
+          margin: 0 auto;
+        }
+        footer .topBar li{
+          display: inline;
+        }
+    
+        footer .topBar li:first-child {
+          margin-right:0;
+        }
+    
+        footer .footerNav .inlineList {
+          margin: 0;
+          padding: 0;
+        }
+        footer .footerNav .inlineList li {
+          display: none;
+        }
+    }
+    
+    @media (min-width: 951px) and (max-width: 1100px){
+      .containerOne, .containerTwo, .containerThree, .containerFour {
+        padding: 0px;
+        margin: 0px;
+      }
+      header nav ul{
+        margin-left: 100px;
+        padding: 0;
+      }
+      header nav ul .miniNav {
+        display: inline;
+        font-size: 1.2rem;
+      }
+    
+      header nav ul .hideIt{
+        display: none;
+      } 
+    
+      /* CONTAINER ONE */
+      .containerOne .rightSide img {
+          width: 350px;
+        margin: 10px 0px 0px 100px;
+      }
+    
+      .containerOne .leftSide{
+        margin: 0;
+      }
+      .containerOne .leftSide img{
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 300px;
+      }
+    
+      .containerOne h1 {
+        font-size: 1.5rem;
+        text-align: left;
+      }
+    
+      .containerOne h3{
+        font-size: .9rem;
+      } 
+    
+      .containerOne input[type="email"], .newsLetter input[type="email"] {
+        width: 300px;
+        padding: 10px 12px;
+        margin: 0;
+       }
+    
+      .containerOne ul a {
+      padding: 6px 10px;
+      }
+    
+      /* CONTAINER TWO */
+      .containerTwo h2 {
+        font-size: 1.1rem;
+      }
+    
+      /* CONTAINER THREE */
+      .containerThree {
+        height: 850px;
+        padding: 15px 30px;
+      }
+    
+      /* CONTAINER FOUR */
+      .containerFour {
+        padding: 0px 30px;
+      }
+    
+      .newsLetter {
+        height: 70px;
+        background-color: rgb(184, 197, 208);
+        padding: 0;
+        margin: 0;
+      }
+    
+      .newsLetter ul li p {
+        color: rgb(255,255,255);
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        margin-left: 100px;
+      }
+    
+      footer {
+        margin: 0;
+        padding: 0;
+        text-align:center;
+      }
+    
+      footer .topBar {
+        margin: 0 auto;
+      }
+      footer .topBar li{
+        display: inline;
+      }
+    
+      footer .topBar li:first-child {
+        margin-right:0;
+      }
+    
+      footer .footerNav .inlineList {
+        margin: 0;
+        padding: 0;
+      }
+      footer .footerNav .inlineList li {
+        display: none;
+      }
+    }
+    
+    @media (min-width: 1100px) and (max-width: 1300px){
+      .containerOne, .containerTwo, .containerThree, .containerFour {
+        padding: 0px;
+        margin: 0px;
+      }
+      header nav ul{
+        margin-left: 100px;
+        padding: 0;
+      }
+      header nav ul .miniNav {
+        display: inline;
+        font-size: 1.2rem;
+      }
+    
+      header nav ul .hideIt{
+        display: none;
+      } 
+    
+      .containerOne .rightSide img {
+        width: 350px;
+        margin: 10px 0px 0px 100px;
+      }
+    
+      .containerOne .leftSide{
+        margin: 0;
+      }
+      .containerOne .leftSide img{
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 300px;
+      }
+    
+      footer .topBar li:first-child {
+        margin-right:0;
+      }
+    
+      .containerOne h1 {
+        font-size: 1.5rem;
+        text-align: left;
+      }
+    
+      .containerOne h3{
+        font-size: .9rem;
+      } 
+    
+      .containerOne input[type="email"], .newsLetter input[type="email"] {
+        width: 300px;
+        padding: 10px 12px;
+        margin: 0;
+      }
+    
+      .containerOne ul a {
+      padding: 6px 10px;
+      }
+    
+      /* CONTAINER THREE */
+      .containerThree {
+        padding: 30px;
+        height: 700px;
+      }
+      .containerThree p {
+        font-size: .9rem;
+      }
+    
+      .containerThree img {
+        width: 28%;
+      }
+    
+      /* CONTAINER FOUR */
+      .containerFour {
+        padding: 0px 25px;
+      }
+    
+      .containerFour .innerSection img {
+        width: 24%;
+      }
+    
+      .newsLetter {
+        height: 70px;
+        background-color: rgb(184, 197, 208);
+        padding: 0;
+        margin: 0;
+      }
+    
+      .newsLetter ul li p {
+        color: rgb(255,255,255);
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        margin-left: 200px;
+      }
+      footer {
+        margin: 0;
+        padding: 0;
+        text-align:center;
+      }
+    
+      footer .topBar li:first-child {
+        margin-right:0;
+      }
+    
+    
+      footer .topBar li{
+        display: inline;
+        padding: 0;
+      }
+      
+      footer .footerNav .inlineList {
+        margin: 0;
+        padding: 0;
+      }
+      footer .footerNav .inlineList li {
+        display: none;
+      }
+    }
+    
+    @media (min-width: 1301px) and (max-width: 1523px){
+      .containerOne .leftSide {
+        margin-top: 0;
+        margin-top: 40px;
+      }
+    
+      .containerOne .leftSide img {
+        width: 150px;
+        margin-bottom: 25px;
+      }
+    
+      .containerOne h1 {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: rgb(80, 91, 97);
+        margin-bottom: 5px;
+      }
+    
+      .containerOne h3 {
+        font-size: .9rem;
+        text-align: left;
+        font-weight: lighter;
+        margin-bottom: 30px;
+      }
+    
+      .containerOne h5 {
+        font-size: .7rem;
+        font-weight: lighter;
+        margin-bottom: 10px;
+      }
+    
+      .containerOne input[type="email"], .newsLetter input[type="email"] {
+        padding: 13px 15px;
+        width: 250px;
+        border-radius: 5px;
+        border: 1px solid rgb(143, 156, 163);
+        margin-right: 10px;
+      }
+    
+      .containerThree {
+        height: 900px;
+      }
+      .containerFour {
+        height: 900px;
+      }
+      .containerFour .innerSection {
+        height: 450px;
+      }
+    
+      .newsLetter {
+        height: 70px;
+        background-color: rgb(184, 197, 208);
+        padding: 0;
+        margin: 0;
+      }
+    
+      .newsLetter ul li p {
+        color: rgb(255,255,255);
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        margin-left: 300px;
+      }
+    
+      footer .topBar li:first-child {
+        margin-right:50px;
+      }
+    
+      footer .footerNav .inlineList {
+        display: none;
+      }
+     }
